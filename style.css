@@ -1,0 +1,239 @@
+.sixtyfour-convergence-text{  
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
+
+.micro-5-regular {
+  font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page {
+  position: absolute;
+  background-color: #0000009c;
+  width: 100vw;
+  height: 120rem;
+}
+body {
+  font-family: "Sixtyfour Convergence", sans-serif;  background-image: url('img/ring.png');
+  overflow: hidden;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: -8px;
+  padding: 0;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+
+
+h1 {
+  z-index: 2;
+  font-family: "Sixtyfour Convergence", sans-serif;
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+#game-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 600px;
+  height: 60%;
+}
+
+#tyson, #punching-bag {
+  background-size: cover;
+  transition: 0.2s ease-in-out;
+}
+
+#punching-bag {
+  width: 400px;
+  height: 600px;
+  top: 17%;
+  position: absolute;
+}
+
+.hero {
+  position: absolute;
+  background-color: #b83928ec;
+  width: 370px;
+  height: 490px;
+  left: 10%;
+  top: 20%;
+  z-index: 0;
+}
+
+#tyson {
+
+  margin: auto;
+  margin-top: 20px;
+  z-index: 2;
+  width: 300px;
+  height: 300px;
+  background-color: #333;
+  border: #ffffff 3px solid;
+}
+
+#tyson {
+  background: url('img/skinny.png') no-repeat center/cover;
+}
+
+#punching-bag {
+  background: url('img/bag1.png') no-repeat center/cover;
+  cursor: pointer;
+}
+
+#links {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+#links a {
+  font-family: "Micro 5", sans-serif;
+  color: #ffcc00;
+  font-size: 44px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.bottom {
+  
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  position: absolute;
+  z-index: 10;
+  bottom: 70px;
+  width: 400px;
+  padding: 20px;
+  background-color: #ffefeff1;
+}
+
+.info {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 7px;
+  width: 82.7%;
+  background-color: #0000008e;
+  z-index: 100;
+  text-align: center;
+  margin: auto;
+  margin-top: 28px;
+  padding-bottom: 7px;
+}
+
+/**/
+.slideshow-container {
+  z-index: 999;
+  max-width: 380px;
+  position: absolute;
+  margin: auto;
+  top: 22%;
+  right: 5%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgba(0, 0, 0, 0.589);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  right: 10px;
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.ear {
+  position: absolute;
+  top: 77%;
+  left: 67.5%;
+}
+
+.ear img {
+  width: 100px;
+  rotate: -50deg;
+}
+
+.ali {
+  position: absolute;
+  top: 7.3%;
+  left: 24.5%;
+}
+
+.ali img {
+  width: 170px;
+}
